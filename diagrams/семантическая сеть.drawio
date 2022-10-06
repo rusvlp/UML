@@ -1,20 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T10:41:22.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="vP_YQg_ecZzaD3kHwfEZ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-06T10:45:50.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.34" etag="424vSV_A75C4xtKlL3Q-" version="20.4.0" type="github">
   <diagram id="4kZPJCfSbLn3ZlEgu2B2" name="Страница 1">
     <mxGraphModel dx="1579" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-56" value="isA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-1" target="UGtF-2ysWfJspHMiToVQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-1" value="кошка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="130" y="610" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-2" target="UGtF-2ysWfJspHMiToVQ-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-60" value="isA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UGtF-2ysWfJspHMiToVQ-59">
+          <mxGeometry x="0.2758" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-2" value="Муся" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="230" y="610" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UGtF-2ysWfJspHMiToVQ-9" value="Агент" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-3" target="UGtF-2ysWfJspHMiToVQ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UGtF-2ysWfJspHMiToVQ-12" value="Агент" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-3" target="UGtF-2ysWfJspHMiToVQ-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-13" value="Место" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-3" target="UGtF-2ysWfJspHMiToVQ-5">
           <mxGeometry relative="1" as="geometry">
@@ -28,6 +33,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-29" value="Характер движения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-3" target="UGtF-2ysWfJspHMiToVQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-55" value="Агент" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-3" target="UGtF-2ysWfJspHMiToVQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-3" value="прыгнула" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -106,6 +114,15 @@
         </mxCell>
         <mxCell id="UGtF-2ysWfJspHMiToVQ-53" value="Экран" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-62" value="aKindOf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UGtF-2ysWfJspHMiToVQ-57" target="UGtF-2ysWfJspHMiToVQ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-57" value="Кличка кошки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UGtF-2ysWfJspHMiToVQ-61" value="Кличка животного (кот)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
