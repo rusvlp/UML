@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T05:36:40.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wCoPmS5M0d67DdEWtzzs" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T05:36:59.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MrnDY2Cy14CKYWsKTMXZ" version="20.5.0" type="github">
   <diagram id="1ZU6nqE6PjN8dN5hzKM5" name="Страница 1">
     <mxGraphModel dx="789" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         <mxCell id="_biEWtAUGlpohB7jtDZ2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_biEWtAUGlpohB7jtDZ2-3" target="_biEWtAUGlpohB7jtDZ2-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_biEWtAUGlpohB7jtDZ2-3" value="Создание модуля ИИ (1 мес)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_biEWtAUGlpohB7jtDZ2-3" value="Создание модуля ИИ (1.5 мес)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="20" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_biEWtAUGlpohB7jtDZ2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_biEWtAUGlpohB7jtDZ2-4" target="_biEWtAUGlpohB7jtDZ2-11">
