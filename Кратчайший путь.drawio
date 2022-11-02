@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T05:05:06.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Egy-MxYfusWjr_D3TjpW" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T05:16:44.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0FQnwQ-yx0xkoY3iDcGJ" version="20.5.1" type="github">
   <diagram id="G0ImZ3TkjKc3nKQnFde2" name="Страница 1">
-    <mxGraphModel dx="862" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1016" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,8 +34,10 @@
         <mxCell id="lcK1XKiAMXI63a-Bte1b-12" value="Определение финансовых и иных материальных затрат (1 день)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lcK1XKiAMXI63a-Bte1b-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-14" target="lcK1XKiAMXI63a-Bte1b-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-14" value="Назначение задач (1 день)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="390" width="120" height="60" as="geometry" />
@@ -47,10 +49,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-17" value="Лицензирование необходимых средств (1 день)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-19" target="lcK1XKiAMXI63a-Bte1b-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-19" target="lcK1XKiAMXI63a-Bte1b-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-19" value="Настройка сред разработки, системы контроля версий (1 день)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="390" width="150" height="60" as="geometry" />
+          <mxGeometry x="1590" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-22" target="lcK1XKiAMXI63a-Bte1b-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-22" value="Разработка дизайна (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1855" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-24" target="lcK1XKiAMXI63a-Bte1b-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="400" />
+              <mxPoint x="1990" y="400" />
+              <mxPoint x="1990" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-24" target="lcK1XKiAMXI63a-Bte1b-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-24" value="Настройка сред разработки, системы контроля версий (1 день)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="390" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-26" value="Верстка страниц (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-29" target="lcK1XKiAMXI63a-Bte1b-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-29" value="Внедрение зависимостей (frontend) (1 день)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-32" value="Реализация API (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-34" value="Реализация клиентской логики (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-36" target="lcK1XKiAMXI63a-Bte1b-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-36" value="Составление документации (2 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
