@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T05:16:44.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0FQnwQ-yx0xkoY3iDcGJ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T05:24:39.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dkAEy_Vc16grIWlXXRcS" version="20.5.1" type="github">
   <diagram id="G0ImZ3TkjKc3nKQnFde2" name="Страница 1">
-    <mxGraphModel dx="1016" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,16 +64,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-22" value="Разработка дизайна (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1855" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lcK1XKiAMXI63a-Bte1b-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-24" target="lcK1XKiAMXI63a-Bte1b-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1960" y="400" />
-              <mxPoint x="1990" y="400" />
-              <mxPoint x="1990" y="205" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1855" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-24" target="lcK1XKiAMXI63a-Bte1b-29">
           <mxGeometry relative="1" as="geometry" />
@@ -82,13 +73,15 @@
           <mxGeometry x="1810" y="390" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-26" value="Верстка страниц (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="2050" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lcK1XKiAMXI63a-Bte1b-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-29" target="lcK1XKiAMXI63a-Bte1b-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lcK1XKiAMXI63a-Bte1b-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lcK1XKiAMXI63a-Bte1b-29" target="lcK1XKiAMXI63a-Bte1b-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-29" value="Внедрение зависимостей (frontend) (1 день)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="2050" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lcK1XKiAMXI63a-Bte1b-32" value="Реализация API (3 дня)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1820" y="50" width="120" height="60" as="geometry" />
