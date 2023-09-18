@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T07:06:33.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.7.2" etag="KzqC5YuJchOu9ABWrMbS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T07:37:02.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="W3trM2qNTGV-uFO2OvAG" version="21.7.2" type="github">
   <diagram name="Страница — 1" id="L370RCqEnnZ5s0RKrdnT">
-    <mxGraphModel>
+    <mxGraphModel dx="2049" dy="2469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-1" value="GXRInputManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-2" value="+ LeftHand: HandScript" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-5" value="+ RightHand: HandScript" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-6" value="+ GripTreshold: Vector2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-7" value="+ TriggerTreshhold: Vector2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-8" target="m_tVIS4dX9h9PbDmg8UO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-8" value="HandScript" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="232" width="200" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-9" value="- handRole: HandRole" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-13" value="+ float: GripValue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-14" value="+ float: TriggerValue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-15" value="+ bool: GripPressed&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-16" value="+ bool: TriggerPressed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-36" value="+ UnityEvent: OnGripPressed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-38" value="+ UnityEvent: OnGripReleased" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-37" value="+ UnityEvent: OnGripUpdated" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-33" value="+ UnityEvent: OnTriggerPressed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="234" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-34" value="+ UnityEvent: OnTriggerUpdated" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="260" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-35" value="+ UnityEvent: OnTriggerReleased" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="286" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="312" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="m_tVIS4dX9h9PbDmg8UO-8">
+          <mxGeometry y="320" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-17" value="Event Sender - тот, кто генерирует событие (вызывает его при каких-либо условиях);&lt;br&gt;Event LIstener - тот, кто подписывается на событие (подписывает метод, который говорит, каким образом объект&amp;nbsp;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="93" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-18" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="-305" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-27" target="m_tVIS4dX9h9PbDmg8UO-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-27" value="UnityEvent OnGripPressed" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="160" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-28" target="m_tVIS4dX9h9PbDmg8UO-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="325" />
+              <mxPoint x="1170" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-28" value="UnityEvent OnGripUpdated" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="300" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-29" target="m_tVIS4dX9h9PbDmg8UO-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="255" />
+              <mxPoint x="1150" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-29" value="UnityEvent OnGripReleased" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="230" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-30" target="m_tVIS4dX9h9PbDmg8UO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-30" value="UnityEvent OnTriggerPressed" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="454" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-31" target="m_tVIS4dX9h9PbDmg8UO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-31" value="UnityEvent OnTriggerUpdated" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="522" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m_tVIS4dX9h9PbDmg8UO-32" target="m_tVIS4dX9h9PbDmg8UO-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1110" y="617" />
+              <mxPoint x="1110" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_tVIS4dX9h9PbDmg8UO-32" value="UnityEvent OnTriggerReleased" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="592" width="189" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
